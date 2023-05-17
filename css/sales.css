@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+.sales {
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.sales h1 {
+    font-size: 36px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.sales h2 {
+    font-size: 24px;
+    margin-top: 50px;
+    line-height: 35px;
+}
+
+.job-history p {
+    padding-top: 25px;
+    padding-right: 50px;
+    line-height: 28px;
+}
+
+.job-history dl {
+    margin-top: 30px;
+    padding-right: 50px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.job-history dt {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.job-history dd {
+    margin-top: 15px;
+    line-height: 25px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.job-history .margin {
+    margin-top: 50px;
+}
+
+.job-img h3,img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+img {
+    margin-top: 25px;
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}

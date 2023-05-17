@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: 1;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* headerここから */
+.header {
+    color: #ffffff;
+    background-color: #5fa6ed;
+}
+
+.header-inner {
+    max-width: 1200px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: block;
+    width: 200px;
+}
+
+.site-menu ul {
+    display: flex;
+}
+
+.site-menu ul li {
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.site-menu ul li a {
+    font-weight: bold;
+}
+/* headerここまで */
+
+/* footerここから */
+.footer {
+    color: #ffffff;
+    background-color: #5fa6ed;
+    padding: 30px 0 15px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    display: block;
+    margin-top: 90px;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 90px;
+}
+
+/* footerここまで */

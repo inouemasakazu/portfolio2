@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+.about {
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.about-top h1 {
+    font-size: 36px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.about h2 {
+    font-size: 24px
+}
+
+.about-top p {
+    margin-top: 50px;
+    padding-right: 50px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.about-profile {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.about-profile-img img {
+    display: block;
+    max-width: 360px;
+    padding-right: 50px;
+}
+
+.about-profile dl {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.about-profile dl dt{
+    width: 30%;
+}
+
+.about-profile dl dd {
+    width: 70%;
+}
+
+.about-profile-carea h2 {
+    margin-top: 100px;
+}
+
+.about-profile-carea th {
+    width: 280px;
+    background-color: #dcdcdc;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border: 1px solid #cccccc;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.about-profile-carea td {
+    width: 880px;
+    padding-left: 40px;
+    line-height: 20px;
+    border: 1px solid #cccccc;
+}
+
+.about-profile-carea table {
+    margin-top: 30px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}

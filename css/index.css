@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+#main-img {
+    height: 100vh;
+    background-image: url(../images/index/index-main.JPG);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+}
+
+.header {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.first-view-text {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.first-view-text h1 {
+    font-size: 56px;
+    line-height: 72px;
+}
+
+.first-view-text p {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.pr-area {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 40px;
+}
+
+.concept {
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+}
+
+.concept-text {
+    width: 50%;
+    padding-right: 35px;
+
+}
+
+.concept-img {
+    width: 50%;
+}
+
+.concept-text h2 {
+    font-size: 22px;
+}
+
+.concept-text h3 {
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.concept-text .pr {
+    margin-top: 35px;
+    font-size: 18px;
+    line-height: 30px;
+    /* border-bottom: 1px solid #5fa6ed;
+    padding-bottom: 20px; */
+}
+
+.concept-text h4 {
+    font-size: 15px;
+    margin-top: 80px;
+}
+
+.concept-text p {
+    margin-top: 18px;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.button006 a {
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    max-width: 240px;
+    transition: 0.3s ease-in-out;
+    font-size: 15px;
+    font-weight: 600;
+}
+.button006 a:before {
+    content: '';
+    position: absolute;
+    top: calc(50% - 2px);
+    right: -2em;
+    transform: translateY(calc(-50% - 2px)) rotate(30deg);
+    width: 12px;
+    height: 2px;
+    background-color: #5fa6ed;
+    transition: 0.3s;
+}
+.button006 a:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -2em;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 2px;
+    background-color: #5fa6ed;
+    transition: 0.3s;
+}
+.button006 a:hover:before, .button006 a:hover:after {
+    right: -2.5em;
+}
+.button006 a:hover {
+    background: #ffffff;
+    color: #6bb6ff;
+}

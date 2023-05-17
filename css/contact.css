@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+.contact {
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.contact h1 {
+    font-size: 36px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-top: 50px;
+    line-height: 40px;
+}
+
+.contact-top p {
+    padding-top: 25px;
+    padding-right: 50px;
+    font-size: 16px;
+}
+
+.contact-map-flex {
+    display: flex;
+}
+
+.contact-map th, td {
+    text-align: left;
+    vertical-align: top;
+    line-height: 2.5;
+}
+
+.contact-map td {
+  padding-left: 30px;
+}
+
+ .contact-map iframe {
+  width: 430px;
+}
+
+ .form {
+  background-color: #eaeaea;
+  padding: 30px 50px;
+}
+
+ .form dl dt {
+  width: 165px;
+  padding: 10px 0;
+  float: left;
+  clear: both;
+}
+
+ .form dl dd {
+  padding: 10px 0;
+}
+
+ .form .name {
+  width: 240px;
+  height: 30px;
+}
+
+ .form .email {
+  width: 300px;
+  height: 30px;
+}
+
+ .form .tel {
+  width: 240px;
+  height: 30px;
+}
+
+ .form .type {
+  width: 180px;
+  height: 30px;
+}
+
+ .form .message {
+  width: 660px;
+  height: 150px;
+}
+
+ .form button {
+  background-color: #009cd3;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 5px;
+  width: 120px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  border: 3px solid #009cd3;
+  margin-left: 165px;
+}
+
+ .form button:hover {
+  background-color: #ffffff;
+  color: #009cd3;
+  cursor: pointer;
+}
+
+ .form .required:after {
+  content: " * ";
+  color: #ff0000;
+}
+
+ .form .attention {
+  margin: 20px 0 0 165px;
+}

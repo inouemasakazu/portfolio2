@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Inoue Masakazu</title>
+  <meta name="description" content="ページの概要文を記載します。">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- headerここから -->
+  <header class="header">
+    <div class="header-inner">
+      <a class="header-logo" href="./index.html">
+        <h1>Inoue<br>Masakazu</h1>
+      </a>
+      <div class="header-site-menu">
+        <nav class="site-menu">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="jobhistory.html">Jobhistory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- headerここまで -->
+
+  <!-- mainここから -->
+  <main class="contact">
+    <h1>Contact</h1>
+    <div class="contact-mail">
+        <h2 class="icon">Contact form</h2>
+        <div class="form">
+            <form action="#.php" method="POST">
+                <dl>
+                    <dt><span class="required">お名前</span></dt>
+                    <dd><input type="text" name="name" class="name" required></dd>
+                    <dt><span class="required">メールアドレス</span></dt>
+                    <dd><input type="email" name="email" class="email" required></dd>
+                    <dt>お電話番号</dt>
+                    <dd><input type="tel" name="tel" class="tel"></dd>
+                    <!-- <dt>お問い合わせ種別</dt>
+                    <dd>
+                    <select name="type" class="type">
+                        <option value="撮影のご依頼">撮影のご依頼</option>
+                        <option value="講演・各種メディア出演のご依頼">講演・各種メディア出演のご依頼</option>
+                        <option value="その他お問い合わせ">その他お問い合わせ</option>
+                    </select>
+                    </dd> -->
+                    <dt>ご希望のご連絡方法</dt>
+                    <dd>
+                    <input type="radio" name="contact" value="Eメール">Eメール
+                    <input type="radio" name="contact" value="お電話">お電話
+                    </dd>
+                    <dt>お問い合わせ内容</dt>
+                    <dd><textarea name="message" class="message"></textarea></dd>
+                </dl>
+                <button type="submit" class="btn">送信</button>
+            </form>
+        <div class="attention">
+          <p>※「<span class="required"></span>」の付いている項目は必須項目です。<br>※メッセージ送信後、48時間以内に担当者よりご連絡いたします。</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- mainここまで -->
+
+  <!-- footerここから -->
+  <footer class="footer">
+    <nav class="site-menu">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="jobhistory.html">Jobhistory</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="footer-logo" href="./index.html">
+      <h1>Inoue Masakazu</h1>
+    </a>
+    <p class="copyright"><small>&copy;Masakazu Inoue</small></p>
+  </footer>
+  <!-- footerここまで -->
+
+</body>
+
+</html>
